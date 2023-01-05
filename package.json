@@ -14,6 +14,7 @@
         "prettier-plugin-solidity": "^1.0.0-rc.1"
     },
     "dependencies": {
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.7",
         "@pinata/sdk": "^2.0.0",
         "alchemy-sdk": "^2.2.5"
     }

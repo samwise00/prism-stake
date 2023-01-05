@@ -57,7 +57,7 @@ contract IpfsNft is VRFConsumerBaseV2, ERC721URIStorage, Ownable {
         uint32 callbackGasLimit,
         string[4] memory tokenUris,
         uint256 mintFee
-    ) VRFConsumerBaseV2(vrfCoordinatorV2) ERC721("Neon Pups", "NPup") {
+    ) VRFConsumerBaseV2(vrfCoordinatorV2) ERC721("Prism NFT", "Prism") {
         // chainlink VRF constructor variables
         i_vrfCoordinator = VRFCoordinatorV2Interface(vrfCoordinatorV2);
         i_gasLane = gasLane;
